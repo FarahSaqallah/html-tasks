@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+  height: 50%;
+  width: 30%;
+  background-color: rgba(176, 224, 230, 0.521);
+}
+label
+{
+    margin-left: 10px;
+
+}
+</style>
+<body>
+    <h1><P>Registration Form! </P></h1>
+    <div>
+        <form  style="border-style:dotted ;" >
+           <h3><p style="margin-left: 10px;">Personal details</p></h3>
+           <hr>
+           <label>First name:</label>
+           <input type="text">
+           <br> <br>
+           <label>Last name:</label>
+           <input type="text">
+           <br>  <br>
+           <label>Email:</label>
+           <input type="email"><br>  <br>
+           <label>Gender:</label>
+           <input type="radio" name="gender" value="male"  id="male">
+           <label for="male">Male</label>
+           <input type="radio" name="gender" value="female" id="female">
+           <label for="female">Female</label>
+           <br><br>
+           <label for="city"> City:</label>
+           <select name="city" id="City">
+               <option value="Amman">Amman</option>
+               <option value="Irbid">Irbid</option>
+               <option value="Ajloun">Ajloun</option>
+               <option value="Aqaba">Aqaba</option>
+               <option value="Salt">Salt</option>
+           </select>
+           <br><br>
+
+          <input style="margin-left: 10px;" type="submit" value="Sign up">
+          <br><br>
+        </form>
+
+    </div>
+</body>
+</html>
