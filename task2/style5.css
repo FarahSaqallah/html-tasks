@@ -1,0 +1,35 @@
+
+body{
+    background-color: lightyellow;
+}
+.div1{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: white;
+}
+
+.ipsum
+{
+    background-color: orange;
+}
+
+.div2{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px dotted red;
+    background-color: white;
+}
+
+.p3{
+    color:red;
+    padding: 10px;
+    border: 2px dotted red;
+    background-color: white;
+}
+
+.p3 mark
+{
+    font-weight: bold;
+    color: red;
+}

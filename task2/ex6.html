@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first
+        {
+            text-decoration: underline;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .link
+        {
+            color: orange;
+        }
+        .red
+        {
+            color:red;
+        }
+
+        .list
+        {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <P id="first">
+        Have fun while styling!
+    </P>
+    <hr>
+
+    <p style="color: blue;">
+        Here is a text <a class="link" href="#">with a link</a>. Let's do it!  
+    </p>
+    <p>
+        We have more <u><mark><a  style="color:blueviolet" href="#">links</a></mark></u>  here:  
+    </p>
+
+    <p>
+        Is this a (<a  class="link" href="#">link</a>?). 
+    </p>
+
+    <p>We have a list:</p>
+    <ul>
+        <b><li>Please,<a class="red" href="#"> Click me!</a></li></b>
+        <br>
+        <li>
+            Can you? Let's count
+            <ul>
+           <b><li class ="list">111</li></b> 
+            <li class ="list">222 <a  class="red" href="#">Another link</a></li>
+            <li class ="list">333
+                <ul>
+                    <b>  <li>red</li></b> 
+                    <li>green</li>
+                    <li>blue <a  class="red"href="#">Colors link</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        </li>
+
+        <p>That's Enough!</p>
+    </ul>
+
+</body>
+</html>

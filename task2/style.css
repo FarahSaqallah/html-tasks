@@ -1,0 +1,41 @@
+#first
+{
+ color:orange;
+}
+
+.text
+{
+ text-align: right;
+ font-weight: bold;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: x-large;
+}
+
+
+.p2{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+font-size: small;
+}
+
+.blue
+{
+    color: blue;
+    font-family: verdana;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.green
+{
+    color: green;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.all
+{
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: verdana;
+}
