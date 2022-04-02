@@ -1,0 +1,16 @@
+section{
+    border: 3px rgba(255, 166, 0, 0.61) solid;
+    display: flex;
+    justify-content: center;
+
+}
+
+span{
+color:white;
+flex-grow: 1;
+align-items: center;
+height: 200px;
+text-align: center;
+font-weight: 500;
+font-size: 30px;
+}

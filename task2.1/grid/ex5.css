@@ -1,0 +1,17 @@
+section
+{
+  
+    display: grid;
+    grid-template-columns:repeat(3, 160px);
+    grid-template-rows: repeat(3, 1fr);
+   gap: 5px 5px;
+
+}
+
+img
+{
+width: 150px;
+height: 150px;
+
+}
+

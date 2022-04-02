@@ -1,0 +1,41 @@
+section
+{
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+    grid-template-rows: repeat(15, 15%);
+    gap:5px 5px;
+   
+}
+
+.black
+{
+    background-color: black;
+    grid-column: 1/10;
+     grid-row: 2/4;
+  
+}
+
+.orange
+{
+    background-color:orange;
+    grid-column: 1/8;
+    grid-row: 4/10;
+
+  
+}
+
+.green
+{
+    background-color: green;
+    grid-column: 8/10;
+    grid-row: 4/10;
+
+}
+
+.blue
+{
+    background-color: blue;
+    grid-column: 1/10;
+    grid-row: 10/13;
+
+}

@@ -1,0 +1,41 @@
+section
+{
+    display: grid;
+    grid-template-columns:repeat(6,30px);
+    grid-template-rows: repeat(6, 30px );
+    grid-template-areas: "overlap";
+   
+
+}
+
+.All
+{
+    height: 100px;
+    width: 140px;
+    grid-area: overlap;
+}
+.top
+{
+    background-color: rgba(255, 0, 0, 0.653);
+    grid-column: 1/2;
+    z-index: 2;
+ 
+}
+
+.bottom
+{
+    background-color:rgba(0, 0, 255, 0.692);
+    grid-column: 3/5;
+    grid-row: 2/3;
+
+  
+}
+
+.middle
+{
+    background-color: rgba(0, 128, 0, 0.708);
+    grid-column: 4/6;
+    grid-row: 3/5;
+    z-index: 1;
+
+}
